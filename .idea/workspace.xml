@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a Validate Subsequence class, tests included.">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/SortedSquaredArray.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/SortedSquaredArrayTest.groovy" afterDir="false" />
+    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a Sorted and Squared Array class, tests included.">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/TournamentWinner.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/TournamentWinnerTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,24 +55,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2POudxteuCzgRlqHGXscRHHeiQv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "Groovy JUnit",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_directory_selection": "C:/Users/Ethan/IdeaProjects/AlgoExpertGroovy/src/test/groovy/org/example",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;Groovy JUnit&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Ethan/IdeaProjects/AlgoExpertGroovy/src/test/groovy/org/example&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -82,8 +84,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'AlgoExpertGroovy.test'">
-    <configuration name="SortedSquaredArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TournamentWinnerTest">
+    <configuration name="TournamentWinnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -96,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.SortedSquaredArrayTest&quot;" />
+            <option value="&quot;org.example.TournamentWinnerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,7 +109,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SortedSquaredArrayTest.sortedSquaredArrayTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TournamentWinnerTest.tournamentWinnerTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.SortedSquaredArrayTest.sortedSquaredArrayTest7&quot;" />
+            <option value="&quot;org.example.TournamentWinnerTest.tournamentWinnerTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,29 +133,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'AlgoExpertGroovy.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoNumberSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TournamentWinnerTest.tournamentWinnerTest10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -166,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.TwoNumberSumTest&quot;" />
+            <option value="&quot;org.example.TournamentWinnerTest.tournamentWinnerTest10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,7 +157,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ValidateSubsequenceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TournamentWinnerTest.tournamentWinnerTest8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -190,7 +170,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.ValidateSubsequenceTest&quot;" />
+            <option value="&quot;org.example.TournamentWinnerTest.tournamentWinnerTest8&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TournamentWinnerTest.tournamentWinnerTest9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.TournamentWinnerTest.tournamentWinnerTest9&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'AlgoExpertGroovy.test'" />
-        <item itemvalue="Gradle.SortedSquaredArrayTest" />
-        <item itemvalue="Gradle.SortedSquaredArrayTest.sortedSquaredArrayTest7" />
-        <item itemvalue="Gradle.TwoNumberSumTest" />
-        <item itemvalue="Gradle.ValidateSubsequenceTest" />
+        <item itemvalue="Gradle.TournamentWinnerTest" />
+        <item itemvalue="Gradle.TournamentWinnerTest.tournamentWinnerTest1" />
+        <item itemvalue="Gradle.TournamentWinnerTest.tournamentWinnerTest10" />
+        <item itemvalue="Gradle.TournamentWinnerTest.tournamentWinnerTest9" />
+        <item itemvalue="Gradle.TournamentWinnerTest.tournamentWinnerTest8" />
       </list>
     </recent_temporary>
   </component>
@@ -234,16 +238,24 @@
       <option name="project" value="LOCAL" />
       <updated>1683344616856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a Sorted and Squared Array class, tests included.">
+      <created>1683345718261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683345718261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a Two Number Sum class, tests included." />
     <MESSAGE value="Added a Validate Subsequence class, tests included." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Validate Subsequence class, tests included." />
+    <MESSAGE value="Added a Sorted and Squared Array class, tests included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Sorted and Squared Array class, tests included." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgoExpertGroovy$Tests_in__AlgoExpertGroovy_test_.ic" NAME="Tests in 'AlgoExpertGroovy.test' Coverage Results" MODIFIED="1683345675024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AlgoExpertGroovy$Tests_in__AlgoExpertGroovy_test_.ic" NAME="Tests in 'AlgoExpertGroovy.test' Coverage Results" MODIFIED="1683345789990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$ValidateSubsequenceTest.ic" NAME="ValidateSubsequenceTest Coverage Results" MODIFIED="1683344376613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$TwoNumberSumTest.ic" NAME="TwoNumberSumTest Coverage Results" MODIFIED="1683342917201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
