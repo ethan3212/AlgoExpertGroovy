@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Made some 'Groovy' changes.">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/NonConstructibleChange.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/NonConstructibleChangeTest.groovy" afterDir="false" />
+    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a Non-Constructible Change class, tests included.">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/BST.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/BSTTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/TournamentWinner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/org/example/TournamentWinner.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/TwoNumberSum.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/org/example/TwoNumberSum.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +86,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.NonConstructibleChangeTest">
-    <configuration name="NonConstructibleChangeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BSTTest">
+    <configuration name="BSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -97,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.NonConstructibleChangeTest&quot;" />
+            <option value="&quot;org.example.BSTTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -108,7 +111,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NonConstructibleChangeTest.nonConstructibleChangeTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BSTTest.BSTTest17" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -121,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.NonConstructibleChangeTest.nonConstructibleChangeTest1&quot;" />
+            <option value="&quot;org.example.BSTTest.BSTTest17&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,7 +135,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NonConstructibleChangeTest.nonConstructibleChangeTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BSTTest.BSTTest19" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.NonConstructibleChangeTest.nonConstructibleChangeTest2&quot;" />
+            <option value="&quot;org.example.BSTTest.BSTTest19&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,7 +159,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="NonConstructibleChangeTest.nonConstructibleChangeTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BSTTest.BSTTest21" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -169,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.NonConstructibleChangeTest.nonConstructibleChangeTest3&quot;" />
+            <option value="&quot;org.example.BSTTest.BSTTest21&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,7 +183,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="SortedSquaredArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BSTTest.BSTTest6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +196,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.SortedSquaredArrayTest&quot;" />
+            <option value="&quot;org.example.BSTTest.BSTTest6&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.NonConstructibleChangeTest" />
-        <item itemvalue="Gradle.NonConstructibleChangeTest.nonConstructibleChangeTest3" />
-        <item itemvalue="Gradle.NonConstructibleChangeTest.nonConstructibleChangeTest2" />
-        <item itemvalue="Gradle.NonConstructibleChangeTest.nonConstructibleChangeTest1" />
-        <item itemvalue="Gradle.SortedSquaredArrayTest" />
+        <item itemvalue="Gradle.BSTTest" />
+        <item itemvalue="Gradle.BSTTest.BSTTest21" />
+        <item itemvalue="Gradle.BSTTest.BSTTest19" />
+        <item itemvalue="Gradle.BSTTest.BSTTest17" />
+        <item itemvalue="Gradle.BSTTest.BSTTest6" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683598238646</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added a Non-Constructible Change class, tests included.">
+      <created>1683598753721</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683598753721</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,7 +277,8 @@
     <MESSAGE value="Added a Sorted and Squared Array class, tests included." />
     <MESSAGE value="Added a Tournament Winner class, tests included." />
     <MESSAGE value="Made some 'Groovy' changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some 'Groovy' changes." />
+    <MESSAGE value="Added a Non-Constructible Change class, tests included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Non-Constructible Change class, tests included." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$NonConstructibleChangeTest.ic" NAME="NonConstructibleChangeTest Coverage Results" MODIFIED="1683598700666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

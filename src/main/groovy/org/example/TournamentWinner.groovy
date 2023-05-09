@@ -9,7 +9,7 @@ class TournamentWinner {
         scoreboard.put(leadingTeam, 0)
         for (def i = 0; i < competitions.size(); i++) {
             def matchWinner = (results.get(i) == 1) ? competitions.get(i).get(0) : competitions.get(i).get(1)
-            updateScoreboard(scoreboard, matchWinner)
+            updateScoreboard scoreboard, matchWinner
             if (scoreboard.get(matchWinner) > scoreboard.get(leadingTeam)) leadingTeam = matchWinner
         }
         leadingTeam
