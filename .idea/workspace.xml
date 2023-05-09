@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a Non-Constructible Change class, tests included.">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/BST.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/BSTTest.groovy" afterDir="false" />
+    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a BST class, tests included.">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/FindClosestValueInBST.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/FindClosestValueInBSTTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/TournamentWinner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/org/example/TournamentWinner.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/org/example/TwoNumberSum.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/org/example/TwoNumberSum.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +84,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BSTTest">
-    <configuration name="BSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FindClosestValueInBSTTest">
+    <configuration name="FindClosestValueInBSTTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BSTTest&quot;" />
+            <option value="&quot;org.example.FindClosestValueInBSTTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +109,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTTest.BSTTest17" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindClosestValueInBSTTest.findClosestValueInBst1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BSTTest.BSTTest17&quot;" />
+            <option value="&quot;org.example.FindClosestValueInBSTTest.findClosestValueInBst1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,7 +133,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTTest.BSTTest19" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindClosestValueInBSTTest.findClosestValueInBst11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BSTTest.BSTTest19&quot;" />
+            <option value="&quot;org.example.FindClosestValueInBSTTest.findClosestValueInBst11&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +157,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTTest.BSTTest21" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindClosestValueInBSTTest.findClosestValueInBst8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BSTTest.BSTTest21&quot;" />
+            <option value="&quot;org.example.FindClosestValueInBSTTest.findClosestValueInBst8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,7 +181,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BSTTest.BSTTest6" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindClosestValueInBSTTest.findClosestValueInBst9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +194,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BSTTest.BSTTest6&quot;" />
+            <option value="&quot;org.example.FindClosestValueInBSTTest.findClosestValueInBst9&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BSTTest" />
-        <item itemvalue="Gradle.BSTTest.BSTTest21" />
-        <item itemvalue="Gradle.BSTTest.BSTTest19" />
-        <item itemvalue="Gradle.BSTTest.BSTTest17" />
-        <item itemvalue="Gradle.BSTTest.BSTTest6" />
+        <item itemvalue="Gradle.FindClosestValueInBSTTest" />
+        <item itemvalue="Gradle.FindClosestValueInBSTTest.findClosestValueInBst1" />
+        <item itemvalue="Gradle.FindClosestValueInBSTTest.findClosestValueInBst11" />
+        <item itemvalue="Gradle.FindClosestValueInBSTTest.findClosestValueInBst9" />
+        <item itemvalue="Gradle.FindClosestValueInBSTTest.findClosestValueInBst8" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683598753721</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added a BST class, tests included.">
+      <created>1683602997307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683602997307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,7 +283,8 @@
     <MESSAGE value="Added a Tournament Winner class, tests included." />
     <MESSAGE value="Made some 'Groovy' changes." />
     <MESSAGE value="Added a Non-Constructible Change class, tests included." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Non-Constructible Change class, tests included." />
+    <MESSAGE value="Added a BST class, tests included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a BST class, tests included." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$NonConstructibleChangeTest.ic" NAME="NonConstructibleChangeTest Coverage Results" MODIFIED="1683598700666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -286,5 +292,6 @@
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$ValidateSubsequenceTest.ic" NAME="ValidateSubsequenceTest Coverage Results" MODIFIED="1683344376613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$TournamentWinnerTest.ic" NAME="TournamentWinnerTest Coverage Results" MODIFIED="1683397812631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$TwoNumberSumTest.ic" NAME="TwoNumberSumTest Coverage Results" MODIFIED="1683342917201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AlgoExpertGroovy$FindClosestValueInBSTTest.ic" NAME="FindClosestValueInBSTTest Coverage Results" MODIFIED="1683604125556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
