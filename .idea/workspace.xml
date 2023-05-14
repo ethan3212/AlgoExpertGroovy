@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added a Find Closest Value in BST class, tests included.">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/BinaryTree.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/BranchSums.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/BranchSumsTest.groovy" afterDir="false" />
+    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added Node Depths class, tests included.">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/EvaluateExpressionTree.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/EvaluateExpressionTreeTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +84,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BranchSumsTest">
-    <configuration name="BranchSumsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EvaluateExpressionTreeTest">
+    <configuration name="EvaluateExpressionTreeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -99,7 +98,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BranchSumsTest&quot;" />
+            <option value="&quot;org.example.EvaluateExpressionTreeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +109,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BranchSumsTest.branchSumsTest4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EvaluateExpressionTreeTest.evaluateExpressionTreeTest11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BranchSumsTest.branchSumsTest4&quot;" />
+            <option value="&quot;org.example.EvaluateExpressionTreeTest.evaluateExpressionTreeTest11&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +133,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BranchSumsTest.branchSumsTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EvaluateExpressionTreeTest.evaluateExpressionTreeTest12" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,7 +146,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BranchSumsTest.branchSumsTest7&quot;" />
+            <option value="&quot;org.example.EvaluateExpressionTreeTest.evaluateExpressionTreeTest12&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +157,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BranchSumsTest.branchSumsTest8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EvaluateExpressionTreeTest.evaluateExpressionTreeTest4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +170,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BranchSumsTest.branchSumsTest8&quot;" />
+            <option value="&quot;org.example.EvaluateExpressionTreeTest.evaluateExpressionTreeTest4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,7 +181,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="BranchSumsTest.branchSumsTest9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EvaluateExpressionTreeTest.evaluateExpressionTreeTest7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -195,7 +194,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.BranchSumsTest.branchSumsTest9&quot;" />
+            <option value="&quot;org.example.EvaluateExpressionTreeTest.evaluateExpressionTreeTest7&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BranchSumsTest" />
-        <item itemvalue="Gradle.BranchSumsTest.branchSumsTest9" />
-        <item itemvalue="Gradle.BranchSumsTest.branchSumsTest8" />
-        <item itemvalue="Gradle.BranchSumsTest.branchSumsTest7" />
-        <item itemvalue="Gradle.BranchSumsTest.branchSumsTest4" />
+        <item itemvalue="Gradle.EvaluateExpressionTreeTest" />
+        <item itemvalue="Gradle.EvaluateExpressionTreeTest.evaluateExpressionTreeTest12" />
+        <item itemvalue="Gradle.EvaluateExpressionTreeTest.evaluateExpressionTreeTest11" />
+        <item itemvalue="Gradle.EvaluateExpressionTreeTest.evaluateExpressionTreeTest7" />
+        <item itemvalue="Gradle.EvaluateExpressionTreeTest.evaluateExpressionTreeTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683604184169</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Binary Tree &amp; Branch Sums classes, tests included.">
+      <created>1684032082868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684032082868</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Node Depths class, tests included.">
+      <created>1684032714942</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684032714942</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,13 +306,17 @@
     <MESSAGE value="Added a Non-Constructible Change class, tests included." />
     <MESSAGE value="Added a BST class, tests included." />
     <MESSAGE value="Added a Find Closest Value in BST class, tests included." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Find Closest Value in BST class, tests included." />
+    <MESSAGE value="Added Binary Tree &amp; Branch Sums classes, tests included." />
+    <MESSAGE value="Added Node Depths class, tests included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Node Depths class, tests included." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$NonConstructibleChangeTest.ic" NAME="NonConstructibleChangeTest Coverage Results" MODIFIED="1683598700666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$BranchSumsTest.ic" NAME="BranchSumsTest Coverage Results" MODIFIED="1684032031011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$Tests_in__AlgoExpertGroovy_test_.ic" NAME="Tests in 'AlgoExpertGroovy.test' Coverage Results" MODIFIED="1683345789990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$ValidateSubsequenceTest.ic" NAME="ValidateSubsequenceTest Coverage Results" MODIFIED="1683344376613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AlgoExpertGroovy$EvaluateExpressionTreeTest.ic" NAME="EvaluateExpressionTreeTest Coverage Results" MODIFIED="1684034331658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AlgoExpertGroovy$NodeDepthsTest.ic" NAME="NodeDepthsTest Coverage Results" MODIFIED="1684032678798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$TournamentWinnerTest.ic" NAME="TournamentWinnerTest Coverage Results" MODIFIED="1683397812631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$TwoNumberSumTest.ic" NAME="TwoNumberSumTest Coverage Results" MODIFIED="1683342917201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$FindClosestValueInBSTTest.ic" NAME="FindClosestValueInBSTTest Coverage Results" MODIFIED="1683604125556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
