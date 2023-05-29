@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added Node Depths class, tests included.">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/org/example/EvaluateExpressionTree.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/org/example/EvaluateExpressionTreeTest.groovy" afterDir="false" />
+    <list default="true" id="8c37141c-1e93-4053-8fc9-732d5fb76ea4" name="Changes" comment="Added Evaluate Expression Tree class, tests included.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684032714942</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Evaluate Expression Tree class, tests included.">
+      <created>1684034403720</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684034403720</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,7 +313,8 @@
     <MESSAGE value="Added a Find Closest Value in BST class, tests included." />
     <MESSAGE value="Added Binary Tree &amp; Branch Sums classes, tests included." />
     <MESSAGE value="Added Node Depths class, tests included." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Node Depths class, tests included." />
+    <MESSAGE value="Added Evaluate Expression Tree class, tests included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Evaluate Expression Tree class, tests included." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AlgoExpertGroovy$NonConstructibleChangeTest.ic" NAME="NonConstructibleChangeTest Coverage Results" MODIFIED="1683598700666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
